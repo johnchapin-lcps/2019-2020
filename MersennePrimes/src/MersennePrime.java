@@ -8,10 +8,7 @@ import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 
 public class MersennePrime {
-	int width = 150; // width of the image
-	int height = 150; // height of the image
-	BufferedImage image = null;
-	File f = null;
+
 
 	public static void main(String[] args) {
 		int width = 75; // width of the image
@@ -100,6 +97,7 @@ public class MersennePrime {
 		} // while loop
 
 		// write image
+		// write prime number
 		try {
 			File newTextFile = new File("PrimeNumber.txt");
 
